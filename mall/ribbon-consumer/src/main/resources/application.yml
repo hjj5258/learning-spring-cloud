@@ -1,0 +1,9 @@
+server:
+  port: 1131
+spring:
+  application:
+    name: shopping-ribbon-consumer
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/

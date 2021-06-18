@@ -1,0 +1,5 @@
+server:
+  port: 1141
+spring:
+  application:
+    name: shopping-hystrix-dashboard

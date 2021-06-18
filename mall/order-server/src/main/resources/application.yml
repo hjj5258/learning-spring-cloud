@@ -1,0 +1,9 @@
+server:
+  port: 1121
+spring:
+  application:
+    name: shopping-provider-order
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
